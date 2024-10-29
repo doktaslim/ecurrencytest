@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.EZDrawer .EZDrawer__checkbox:checked ~ .EZDrawer__container {
+  visibility: hidden;
+  transform: translate3d(0, 0, 0) !important;
+}
